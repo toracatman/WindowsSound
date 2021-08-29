@@ -3,7 +3,7 @@
 
 #pragma comment(lib, "winmm.lib")
 
-int WINAPI WinMain(HINSTANCE hI, HINSTANCE hP, LPSTR lpC, int nC)
+int WINAPI wWinMain(HINSTANCE hI, HINSTANCE hP, LPWSTR lpC, int nC)
 {
 	PlaySound(lpC, NULL, SND_ALIAS | SND_SYNC | SND_NODEFAULT);
 
